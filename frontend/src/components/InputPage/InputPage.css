@@ -1,0 +1,64 @@
+.i{
+    background-color: var(--clr-d2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.i-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80vh;
+    padding: 20px;
+}
+
+.i-form-container{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.i-form-title{
+    margin-bottom: 20px;
+}
+
+.i-predicted{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.i-predicted-values{
+    margin-top: 30px;
+    font-family: 'pkmn';
+}
+
+.i-value{
+    height: 30px;
+}
+
+.i-form-input{
+    margin-bottom: 20px;
+
+}
+
+.i-form-image{
+    width: 40vw;
+    height: 70vh;
+    border: 5px solid var(--clr-l2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.i-form-image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}

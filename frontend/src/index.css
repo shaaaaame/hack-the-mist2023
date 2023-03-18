@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'pkmn';
+  src: url('../src/fonts/pkmn.ttf');
+}
+
+@font-face {
+  font-family: 'mario';
+  src: url('../src/fonts/mario.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'mario';
+  color: var(--clr-l2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +20,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h3{
+  font-size: var(--fs-h3);
+}
+
+h1{
+  font-size: var(--fs-h1);
+}
+
+:root{
+  --clr-d1: #564756;
+  --clr-d2: #507dba;
+  --clr-l1: #5acca0;
+  --clr-l2: #e5f7d2;
+
+  --fs-h1: 32pt;
+  --fs-h3: 15pt;
+  --fs-p: 10pt;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
